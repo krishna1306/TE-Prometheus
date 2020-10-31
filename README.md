@@ -20,7 +20,7 @@ There are two sections in this code -
 5. Store all the measurements in a python dictionary. Later save this in a pickle file (just for troubleshooting purpose).
 
 #### Exporting this Data to Prometheus Format
-We chose "Guage" metric type for our use case. (Explore other metric types from https://prometheus.io/docs/concepts/metric_types/
+We chose "Guage" metric type for our use case. (Explore other metric types from https://prometheus.io/docs/concepts/metric_types/)
 1. Define the labels we want to use for each measurement.
 2. Add data to the labels for each measurement. This is not the measurement data. This is meta data that helps you in designing good queries.
 3. Add measurement data to each measurement.
